@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+body {
+    font-family: Poppins;
+}
+
+.newsletter {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    /* background-color: green; */
+}
+
+
+/* contact area */
+
+.contact {
+    background-color: #333333;
+    color: white;
+    padding: 40px 0;
+}
+
+.con-header {
+    height: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.con-sub {
+    height: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.cbox {
+    margin: 0 20px;
+    border-left: solid white 2px;
+    padding-left: 15px;
+}
+
+.c-foot-head {
+    height: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.c-foot-sub {
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.c-foot-subx {
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+
+/* contact area ends */
+
+.n-header {
+    height: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    /* display: flex;
+    align-items: center;
+    text-align: justify; */
+    color: #000000;
+}
+
+.n-sub {
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000
+}
+
+.input-field {
+    width: 640px;
+    height: 60px;
+    background: #F5FAFE;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.input-field::placeholder {
+    padding-left: 10px;
+}
+
+.btn-pri {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 14.5px;
+    /* width: 160px; */
+    height: 60px;
+    background-color: #017A93;
+    color: #F5FAFE;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+}
+
+
+/* Footer area starts here */
+
+.footer {
+    background-image: url('../images/New folder/Rectangle\ 22.svg');
+    background-size: cover;
+    padding: 40px 40px;
+    color: white;
+}
+
+
+/* Footer area ends here */
+
+a,
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+.f-links {
+    display: block;
+    height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.slink {
+    margin-right: 10px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.social-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.follow {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* height: 36px; */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.l1 {
+    margin-right: 40px;
+}
+
+.footer-input {
+    width: 320px;
+    height: 60px;
+    background: #F5FAFE;
+    border: 1px solid #017A93;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.sign {
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.copy {
+    height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.copy-note {}
+
+.copy-right {
+    margin-right: 10px;
+}
